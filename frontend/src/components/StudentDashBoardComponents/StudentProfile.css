@@ -1,0 +1,391 @@
+.studentProfilePage{
+    background-color: #f3f2ef;
+    padding-left: 250px;
+    padding-top: 65px;
+    padding-bottom: 20px;
+}
+
+.studentProfileImage {
+    display: flex;
+    align-items: center;
+    margin: 20px 20px 0px 20px;
+    background: white;
+    border: 1px solid var(--borderColor);
+    border-radius: 4px;
+    padding: 20px;
+}
+
+.profileImage{
+    width: 100px;
+    height: 100px;
+    border: 1px solid var(--borderColor);
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profileImage img{
+    width: 100px;
+    height: 100px;
+}
+
+.student_About .student_name{
+    font-size: 22px;
+    font-weight: bolder;
+    color: #515456;
+    justify-content: left;
+}
+
+.student_About{
+    margin-left: 4%;
+}
+
+.student_About .about{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    color: #404040;
+    margin-top: -5px;
+    margin-bottom: 5px;
+}
+
+.searchJobshortcut{
+    display: inline-block;
+    background: #00a0e3;
+    border: 1px solid transparent;
+    padding: 4px 10px;
+    margin-top: 2px;
+    border-radius: 4px;
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    transition: 0.4s all;
+}
+
+.editProfileshortcut:hover{
+    color: #00a0e3;
+    background-color: white;
+    border-color: #00a0e3;
+}
+
+.information{
+    overflow: scroll;
+    margin: 20px 20px 0px 20px;
+    padding: 20px;
+    border: 1px solid var(--borderColor);
+    background-color: white;
+    border-radius: 5px;
+}
+
+.personalInformation h2{
+    color: #515456;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+.personalInformationSection1{
+    display: grid;
+    grid-template-columns: 1.3fr 1.3fr 1fr 1fr;
+}
+
+.personalInformationSection1 .first{
+    font-size: 17px;
+    color: #6e6d7a;
+}
+
+.personalInformationSection1 .second{
+    font-size: 15px;
+    font-weight: bold;
+    color: #000000c5;
+    margin-bottom: 5px;
+}
+
+.experience{
+    overflow: scroll;
+    margin: 20px 20px 0px 20px;
+    padding: 20px;
+    padding-bottom: 0;
+    background-color: white;
+    border: 1px solid var(--borderColor);
+    border-radius: 5px;
+}
+
+.experience h2{
+    font-size: 23px;
+    color: #515456;
+}
+
+.logoanddetail{
+    display: flex;
+    padding: 15px 0px 15px 0px;
+}
+
+.logoanddetail:not(:last-child){
+    border-bottom: 1px solid #ebebeb;
+}
+
+.logoanddetail .companyLogo{
+    width: 55px;
+    height: 55px;
+    border-radius: 5px;
+}
+
+.logoanddetail .companyLogo img{
+    width: 50px;
+    height: 50px;
+}
+
+.logoanddetail .detail{
+    margin-left: 10px;
+}
+
+.logoanddetail .detail .title{
+    font-size: 16px;
+    font-weight: 600;
+    color: #191919;
+    letter-spacing: 0.4px;
+}
+
+.logoanddetail .detail .companyName{
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.9);
+    letter-spacing: 0.6px;
+}
+
+.logoanddetail .detail .duration{
+    color: #515456;
+    font-size: 14px;
+}
+
+.logoanddetail .detail .location{
+    color: #515456;
+    font-size: 14px;
+}
+
+.experience .description{
+    margin-left: 65px;
+    font-size: 15px;
+    line-height: 1.4;
+    margin-top: 7px;
+}
+
+.project .detail {
+    padding: 12px 0px 12px 0px;
+}
+
+.project .detail:not(:last-child) {
+    border-bottom: 1px solid #b3b3b3;
+}
+
+.project{
+    overflow: scroll;
+    margin: 20px 20px 0px 20px;
+    padding: 20px;
+    padding-bottom: 0;
+    background-color: white;
+    border: 1px solid var(--borderColor);
+    border-radius: 5px;
+}
+
+.projectTitle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project h2{
+    font-size: 23px;
+    color: #515456;
+}
+
+.project .title{
+    font-size: 17px;
+    font-weight: 600;
+    color: #191919;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.project .duration{
+    margin-left: 2px;
+    color: #515456;
+    font-size: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.project .creators{
+    color: #515456;
+    font-size: 14px;
+}
+
+.project .projectLink a{
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    background-color: #00a0e3;
+    border: 1px solid transparent;
+    border-radius: 16px;
+    padding: 4px 20px;
+    margin: 10px 0px;
+    transition: 0.4s all;
+    font-family: system-ui;
+    margin-bottom: 0px;
+}
+
+.project .projectLink a:hover{
+    background-color: white;
+    color: #00a0e3;
+    border: 1px solid #00a0e3;
+}
+
+.popOverComponent:focus{
+    box-shadow: none !important;
+}
+
+.education{
+    overflow: scroll;
+    margin: 20px 20px 0px 20px;
+    padding: 20px;
+    padding-bottom: 0;
+    background-color: white;
+    border: 1px solid var(--borderColor);
+    border-radius: 5px;
+}
+
+.education h2 {
+    font-size: 23px;
+    color: #515456;
+}
+
+.educationLogoAndDetail {
+    display: flex;
+    padding: 15px 0px 15px 0px;
+}
+
+.educationLogoAndDetail .educationLogo {
+    width: 55px;
+    height: 55px;
+    border-radius: 5px;
+}
+
+.educationLogoAndDetail .educationLogo img{
+    width: 50px;
+    height: 50px;
+}
+
+.educationLogoAndDetail .educationDetails .educationtitle {
+    font-size: 16px;
+    font-weight: 600;
+    color: #191919;
+    letter-spacing: 0.4px;
+}
+
+.educationLogoAndDetail .educationDetails {
+    margin-left: 10px;
+}
+
+.educationLogoAndDetail .educationDetails .degreeandSpecialization {
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.9);
+    letter-spacing: 0.6px;
+}
+
+.educationLogoAndDetail .educationDetails .educationDuration {
+    color: #515456;
+    font-size: 14px;
+}
+
+.educationLogoAndDetail .educationDetails .educationGrade {
+    color: rgb(0, 0, 0, 0.9);
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+@media screen and (max-width: 1250px){
+    .personalInformationSection1{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 1051px) {
+    .personalInformationSection1{
+        grid-template-columns: 1fr 1.4fr 1fr 1fr;
+    }
+    .studentProfilePage{
+        padding-left: 0;
+    }
+    .spinner2{
+        margin-left: 0px !important;
+        width: 100vw !important;
+    }
+}
+
+@media screen and (max-width: 850px){
+    .personalInformationSection1{
+        grid-template-columns: 1fr 1.4fr 1fr;
+    }
+}
+
+@media screen and (max-width: 750px){
+    .personalInformationSection1{
+        grid-template-columns: 1fr 1.1fr;
+        min-width: 500px;
+        overflow: auto;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .studentProfileImage{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .student_About .student_name{
+        margin-top: 8px;
+    }
+    .editProfileshortcut{
+        margin-top: 8px;
+    }
+    .student_About{
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .educationLogoAndDetail {
+        min-width: 420px;
+        overflow: auto;
+    }
+
+    .educationLogoAndDetail .educationDetails .educationtitle {
+        font-size: 16px;
+        margin-bottom: 4px;
+        line-height: 1.1;
+    }
+
+    .educationLogoAndDetail .educationDetails .degreeandSpecialization {
+        margin-bottom: 0;
+        font-size: 14px;
+        line-height: 1.1;
+    }
+
+    .logoanddetail{
+        min-width: 350px;
+        overflow: auto;
+    }
+
+    .logoanddetail .detail .title {
+        font-size: 16px;
+    }
+
+    .logoanddetail .detail .companyName {
+        font-size: 14px;
+    }
+
+    .project .title {
+        font-size: 16px;
+    }
+}

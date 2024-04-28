@@ -1,0 +1,325 @@
+.jobPostings {
+    margin-top: 20px;
+    margin-right: 25px;
+    /* border: 1px solid var(--borderColor); */
+    padding: 19px;
+    /* border-radius: 4px; */
+    border: 2px dotted black;
+  }
+  
+  .jobPostings__Title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    /* font-weight: 600; */
+    font-size: large;
+  }
+  
+  .jobFilterYear {
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #979dac;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  }
+  
+  .jobFilterGridItem {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .jobFrom {
+    /* text-align: center; */
+    margin-top: 80px;
+    margin-right: 25px;
+    padding: 10px;
+    border-radius: 15px;
+  }
+  
+  .jobForm__Title {
+    cursor: pointer;
+    margin-right: 50px;
+    border-radius: 15px;
+    padding: 10px 15px;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: lightpink;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .jobAddition {
+    margin-top: 80px;
+    margin-right: 25px;
+    padding: 19px;
+    border-radius: 25px;
+    background-color: lightpink;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .jobHeader {
+    margin-bottom: 30px;
+  }
+  
+  .JobHeader__title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 50px;
+    font-size: 22px;
+    font-weight: 600;
+    text-decoration: underline;
+  }
+  
+  .jobAddComponent {
+    background-color: white;
+    margin-bottom: 10px;
+    margin-right: 25px;
+    padding: 19px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .jobComponentText {
+    color: blue;
+    font-weight: 600;
+  }
+  
+  .jobSave {
+    width: 100px;
+    text-align: center;
+    background-color: lightgreen;
+    margin-bottom: 1px;
+    padding: 5px;
+    margin-left: auto;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  
+  .jobDelete {
+    width: 100px;
+    text-align: center;
+    color: white;
+    background-color: coral;
+    margin-bottom: 1px;
+    padding: 5px;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  
+  .jobStatus {
+    margin-top: 80px;
+    margin-left: 275px;
+    margin-right: 25px;
+    /* border: 1px solid var(--borderColor); */
+    /* background-color: #caf0f8; */
+    background-color: #e3f2fd;
+  
+    padding: 19px;
+    border-radius: 4px;
+  }
+  
+  .jobDetailsInformation {
+    margin-top: 80px;
+    margin-right: 25px;
+    /* border: 1px solid var(--borderColor); */
+    padding: 19px;
+    border-radius: 50px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .jobYear {
+    border-radius: 10%;
+    padding: 1px 5px;
+    margin-left: 10px;
+    color: black;
+    font-weight: 800;
+    margin-bottom: 5px;
+  }
+  
+  .jobEdit {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: end;
+    align-items: center;
+    padding-right: 20px;
+  }
+  .jobEdit__Icon {
+    cursor: pointer;
+  }
+  
+  .jobBranch {
+    font-style: italic;
+    text-transform: uppercase;
+    border-radius: 10%;
+    padding: 1px 5px;
+    margin-left: 10px;
+    color: black;
+    font-weight: 400;
+    margin-bottom: 5px;
+  }
+  
+  .jobBranch__Name {
+    margin-right: 20px;
+  }
+  
+  .jobPostingDate {
+    color: red;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: end;
+    align-items: center;
+  }
+  
+  .jobProfilePic {
+    margin-right: 1px;
+  }
+  
+  .jobProfileLogo {
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    width: 80px;
+    height: 80px;
+    margin-right: 15px;
+    cursor: default;
+    justify-content: center;
+    align-items: center;
+    background-color: #e9c46a;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 5px;
+  }
+  
+  .jobNameRoleAndLocation {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+  }
+  
+  .jobName {
+    padding-bottom: 1px;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.7);
+  }
+  
+  .jobRole {
+    padding-bottom: 1px;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.7);
+  }
+  
+  .jobLocation {
+    padding-bottom: 1px;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.7);
+  }
+  
+  .jobDetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+  }
+  
+  .jobDetails__Type {
+    color: blue;
+  }
+  
+  .skillList {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+  }
+  
+  .skillItem {
+    border-radius: 20%;
+    display: flex;
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: default;
+    justify-content: center;
+    align-items: center;
+    background-color: lightcoral;
+    color: white;
+    margin-bottom: 5px;
+  }
+  
+  .JobDeadline {
+    color: green;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+  }
+  
+  .jobApplicants__header {
+    margin-top: 25px;
+    padding: 15px 15px;
+    /* padding-top: 25px; */
+    /* padding-bottom: 15px; */
+    background-color: wheat;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  .jobApplicants {
+    padding: 18px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid var(--borderColor);
+    margin-bottom: 10px;
+  }
+  .jobApplicants__ViewProfile {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+  
+  .jobApplicants__Button {
+    background-color: lightskyblue;
+    padding: 10px 15px;
+  }
+  
+  /* .jobApplicants__Profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .jobApplicants__ProfileLogo {
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+    cursor: default;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+  
+  .jobApplicants__Name {
+    padding-bottom: 1px;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.7);
+  } */
+  

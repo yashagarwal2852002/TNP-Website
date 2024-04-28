@@ -1,0 +1,222 @@
+.nav_container{
+    border-bottom: 1px solid var(--borderColor);
+    width: 100%;
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    padding: 0 2.5rem 0 1.5rem;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+}
+
+.navSecond{
+    display: flex;
+}
+
+.navFirst a{
+    display: flex;
+}
+
+.iiitbhopalLogo{
+    width: 65px;
+    height: 65px;
+    padding: 6px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.navFirst {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navProfilePic{
+    border-radius: 50%;
+    overflow: hidden;
+    width: 40px;
+    height: 40px;
+    margin: auto;
+}
+
+.dropprofileLogo{
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    width: 48px;
+    height: 48px;
+    margin: auto;
+    cursor: default;
+    justify-content: center;
+    align-items: center;
+    background-color: #455a64;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.profileLogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: #455a64;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+
+}
+
+.studentName {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.70);
+    margin-right: 15px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.dropstudentName {
+    padding: 2px;
+    font-size: 14.5px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.70);
+}
+.navDropdown {
+    position: absolute;
+    top: 75px;
+    right: 35px;
+    background-color: white;
+    max-height: 352px;
+    border: 1px solid var(--borderColor);
+    border-radius: 5px;
+}
+
+#navDropdownContent{
+    width: 270px;
+    overflow: auto;
+}
+
+li.nav-item {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+li.nav-item:hover{
+    background-color: hsl(214, 28%, 95%);
+}
+
+a.nav-item-class {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    color: #222834;
+    text-decoration: none;
+    padding: 7px;
+    width: 100%;
+}
+
+.nav-item-class span {
+    font-size: 13.5px;
+    color: #000000;
+}
+
+.text-900 {
+    margin-left: 6px;
+    width: 15px;
+    margin-right: 8px;
+    height: 15px;
+}
+
+.show.navDropdown {
+    display: block;
+}
+
+.profileAndName {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 18px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid var(--borderColor);
+    margin-bottom: 10px;
+    pointer-events: none;
+}
+
+#navDropdownContent ul {
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--borderColor);
+}
+
+.signOutFunction {
+    display: flex;
+    margin: 10px;
+    background-color: #f5f7fa;
+    border-radius: 6px;
+    border: 1px solid var(--borderColor);
+    transition: 0.2s all;
+}
+
+.signOutFunction:hover{
+    background-color: #e3e6ed;
+}
+
+.nav-item-signout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    width: 100%;
+    padding: 6px;
+}
+
+.nav-hamburgerIcon {
+    display: none;
+    cursor: pointer;
+}
+
+.box11, .box12, .box13 {
+    width: 25px;
+    height: 3px;
+    margin: 5px 0px;
+    background-color: #3d414d;
+    transition: 1s;
+}
+
+@media screen and (max-width: 600px) {
+    .nav_container{
+        padding: 10px 1.5rem 10px 1rem;
+    }
+    .navDropdown{
+        right: 20px;
+    }
+    .iiitbhopalLogo{
+        width: 45px;
+        height: 45px;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 1051px){
+    .nav-hamburgerIcon {
+        display: block;
+        margin-right: 15px;
+        user-select: none;
+    }
+    .sideNavBar{
+        display: none;
+    }
+}

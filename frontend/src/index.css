@@ -1,0 +1,28 @@
+:root {
+  --borderColor: #cbd0dd;
+  --darkColor: #141824;
+  --logoText: #6e7891;
+  --fontFamily: "Mukta", sans-serif;
+}
+
+::selection {
+  background: transparent;
+  color: #6990f2;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbc1c1a6;
+  border-radius: 50px;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: var(--fontFamily);
+}
